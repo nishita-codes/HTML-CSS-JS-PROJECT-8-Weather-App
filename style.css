@@ -8,13 +8,13 @@
 body{
     /* background-color: rgb(32, 31, 31);
      */
-     background:linear-gradient(135deg, #045b30,#2a225e);
+     background:url('bg.png') no-repeat center center/cover;
     }
 h1{
-    color:#0be5ab;
+    color:white;
     text-align: center;
     font-size: 50px;
-    margin-top:10px;
+    margin-top:px;
 }
 .card{
     width:400px;
@@ -27,6 +27,7 @@ h1{
     border-radius: 20px;
     padding:40px 35px;
     text-align: center;
+    box-shadow: -5px -4px 7px 2px rgb(253, 252, 252);
 }
 .search{
     display: flex;
@@ -45,7 +46,7 @@ h1{
     margin-right: 10px;
     font-size: 18px;
 }
- .search i{
+ .search button{
     border:0;
     outline:0;
     background-color: #ebfffc; 
@@ -93,13 +94,13 @@ h1{
   font-weight: 500;
   margin-top:20px;
   margin-left:0px;
-  color:#232020;
+  color:white;
   
 }
 .text-humidity{
     position: relative;
     font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   margin-top:0px;
   margin-left:5px;
   color:#232020;
@@ -113,12 +114,12 @@ h1{
     font-weight: 500;
     margin-top:15px;
     margin-left:-10px;
-    color:#232020;
+    color:white;
   }
   .wind-speed{
     position:relative;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     margin-top:5px;
     margin-left:0px;
     color:#232020;
