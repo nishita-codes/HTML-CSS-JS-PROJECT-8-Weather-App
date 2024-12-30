@@ -11,7 +11,7 @@ body{
      background:url('bg.png') no-repeat center center/cover;
     }
 h1{
-    color:white;
+    color:#e9f1ef;
     text-align: center;
     font-size: 50px;
     margin-top:px;
@@ -27,7 +27,7 @@ h1{
     border-radius: 20px;
     padding:40px 35px;
     text-align: center;
-    box-shadow: -5px -4px 7px 2px rgb(253, 252, 252);
+    box-shadow: -5px -4px 15px 2px rgb(253, 252, 252);
 }
 .search{
     display: flex;
@@ -127,3 +127,6 @@ h1{
   /* .wind-speed-icon{
     margin-left:-40px;
   } */
+  .weather{
+    display: none;
+  }
